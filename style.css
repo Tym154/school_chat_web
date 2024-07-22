@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #1b262c;
+}
+
+.header {
+    position: fixed;
+    margin: 20px;
+    width: 95%;
+}
+
+.navbar {
+    background-color: #086972;
+    height: 25px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.navbar a {
+    color: white;
+    background-color: #17b978;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
