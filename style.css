@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -9,9 +9,7 @@ body {
 }
 
 .header {
-    position: fixed;
     margin: 20px;
-    width: 95%;
 }
 
 .navbar {
@@ -28,4 +26,31 @@ body {
     margin: 5px;
     border-radius: 10px;
     text-decoration: none;
+
+}
+
+.about {
+    background-color: #086972;
+    border-radius: 10px;
+    height: 200px;
+    margin: 20px;
+}
+
+.about p {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.chat {
+    background-color: #1a274c;
+    border-radius: 10px;
+    height: 400px;
+    margin: 20px;
+}
+
+.chat p {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
 }
